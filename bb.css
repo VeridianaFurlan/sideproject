@@ -1,0 +1,140 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: lightcoral;
+    margin: 0;
+}
+
+/*começo do header*/
+.hero{
+    background-image: url(./images/wallpaper.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 25px 0 0;
+  
+ }
+
+.hero nav li{
+    display: inline-block;
+   list-style: none; 
+   border: 1px solid white;
+   border-radius: 10px;
+   margin-left: 10px;
+
+}
+
+.hero nav a{
+    background: rgba(29, 22, 77, 0.26);
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+
+.hero nav a:hover{
+    background: #36274980;
+}
+
+
+.hero-content{
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 2px 1px tomato;
+}
+
+.hero-content p{
+    background-color: rgb(0,0,0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid rgba(114, 114, 114, 0.253);
+    border-radius: 5px;
+}
+
+/*fim do header*/
+
+
+
+/*começo do conteúdo*/
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+
+.content-section{
+    background: whitesmoke;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    overflow: auto;
+    padding-left: 250px;
+    
+}
+
+.card{
+    width: 25%;
+    float: left;
+    background:indianred;
+    text-align: center;
+    color: cornsilk;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-left: 1%;
+   
+}
+
+
+
+
+.so{
+    height: 300px;
+    width:fit-content;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.card:hover{
+    background: rgba(0, 0, 139, 0.384);
+}
+
+.content-section h2{
+    background: rgba(238, 130, 238, 0.342);
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+}
+
+
+.rodape{
+    background: lightslategray;
+    font-size: 14px;
+    line-height: 80px;
+    text-align: center;
+    height: 80px;
+    color: linen;
+}
+
+
+
+
+/*fim do conteúdo*/
